@@ -45,6 +45,10 @@ body {
 .mainContainer {
     padding: 25px 80px;
     font-size: 20px;
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .newtask {
@@ -107,7 +111,7 @@ h5 a{
     translate: 0px -10px;
 }
 
-.del {
+.blur {
     text-decoration: line-through;
     color: var(--grey);
 }
@@ -132,7 +136,7 @@ h5 a{
 }
 
 
-.popup1 {
+.popu1 {
     background: rgb(255, 255, 255);
     width: 400px;
     height: 200px;
@@ -158,10 +162,6 @@ h5 a{
     line-height: 50px;
     color: var(--black);
     padding: 0px 5px;
-    animation-name: rotate;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
 }
 
 @keyframes rotate {
@@ -175,7 +175,7 @@ h5 a{
 }
 
 .cross:hover {
-    color: red;
+    color: black;
 }
 
 .addnewtask-heading {
@@ -209,4 +209,12 @@ h5 a{
     color: var(--skyblue);
     transition: ease 0.2s;
     padding: 10px 32px;
+}
+.page3container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    gap: 50px;
 }
