@@ -11,7 +11,7 @@
 
 :root {
     --black: rgba(66, 66, 66, 1);
-    --skyblue: rgba(0, 165, 236, 1);
+    --skyblue: rgb(142, 208, 236);;
     --white: rgba(255, 255, 255, 1);
     --border: rgba(237, 237, 237, 1);
     --grey: rgba(194, 194, 194, 1);
